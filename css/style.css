@@ -24,6 +24,7 @@ input {
   padding: 2px;
   font-family: 'Roboto';
   transition: .3s border-color;
+  border-radius: 2px;
 }
 
 input:hover {
@@ -31,7 +32,7 @@ input:hover {
 }
 
 input[type=text]:focus {
-  border-color: #000;
+  border-color: #504f54;
 }
 
 input:focus::placeholder {
