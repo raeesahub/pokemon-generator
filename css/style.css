@@ -1,0 +1,87 @@
+/* TODO: Put your CSS code in here */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+body {
+  flex: auto;
+  /*background-color: #f2f2f2;*/
+  background: #f8f8ff;
+  font-family: "Roboto", sans-serif;
+}
+
+input {
+  all: unset;
+  border: 1px solid lightgray;
+  padding: 2px;
+  font-family: 'Roboto';
+  transition: .3s border-color;
+}
+
+input:hover {
+  border: 1px solid #aaa;
+}
+
+input[type=text]:focus {
+  border-color: #000;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+input[type=submit] {
+  all: unset;
+  background: #FF1818;
+  color: white;
+  padding: 3px;
+  border-radius: 2px;
+  width: 102px;
+}
+
+input[type=submit]:hover {
+  background: #F21616;
+}
+
+.search-bar {
+  padding: 32px;
+  margin: 32px;
+  margin-bottom: 0px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.pokemon-card {
+  padding: 32px;
+  margin: 32px;
+  text-align: center;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+#img {
+  width: 200px;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+h1 {
+  padding: 8px;
+  font-weight: bolder;
+}
+
+p {
+  padding: 8px;
+  margin: 0px;
+}
